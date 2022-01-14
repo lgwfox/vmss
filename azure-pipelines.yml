@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'vmss-deployment-01'
 
 steps:
 - task: Maven@3
